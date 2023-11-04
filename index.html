@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset='utf-8'>
+	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	<title>DOM Tasks</title>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+
+</head>
+
+<body style="text-align:center;">
+
+	<div id="add" class="first">
+		<h1 style="color:green;">This Funcation to Add an element</h1>
+		<input type="text" id="myInput" placeholder="Title...">
+		<button onClick="newElement()"> Add any text to create it in h1</button>
+	</div>
+
+	<div class="first">
+		<h1 style="color:green;">
+			This Funcation to remove an element
+		</h1>
+
+		<p id="GFG_UP" style="font-size: 19px; font-weight: bold;">
+		</p>
+
+		<div id="GFG_DIV">
+			This is Div box.
+		</div>
+		<br>
+
+		<button style="margin-bottom: 10px;" onClick="GFG_Fun()">
+			click here
+		</button>
+
+		<p id="GFG_DOWN" style="color: green; 
+							 font-size: 24px; 
+							 font-weight: bold;">
+		</p>
+	</div>
+
+	<div id="last" class="first">
+		<h1 style="color:green;">
+			This Funcation to Edit an element
+		</h1>
+		<label id="label"> This is the element which we will edit</label>
+		<br>
+		<input type="text" id="myInput1" placeholder="Enter here data which you need to put in above element" style="width:350px;">
+		<button style="margin-bottom: 10px;" onClick="editElement()">
+			click here to edit element
+		</button>
+		<p id="GFG_DOWN1" style="color: green; 
+		font-size: 24px; 
+		font-weight: bold;">
+		</p>
+	</div>
+	<div class="first">
+		<h1 style="color:green;">
+			This Funcation to Save data in HTML
+		</h1>
+		<input type="text" id="myInput2" placeholder="Enter your data here">
+		<button style="margin-bottom: 10px;" onClick="saveElement()">
+			click here to save your data and show it below
+		</button>
+		<div id="output"> </div>
+	</div>
+	<script src='main.js'></script>
+</body>
+
+</html>

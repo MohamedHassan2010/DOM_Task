@@ -1,0 +1,21 @@
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.first {
+    width: 600px;
+    margin-left: 450px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-style: double;
+}
+#GFG_DIV {
+    background: green;
+    height: 100px;
+    width: 200px;
+    margin: 0 auto;
+    
+    color: white;
+}
